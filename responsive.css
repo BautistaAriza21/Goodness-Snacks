@@ -1,0 +1,305 @@
+/* TABLET */
+@media screen and (min-width: 768px) {
+    /* HEADER */
+    .logo__nav {
+        background-image: var(--logo);
+        width: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .title__nav h1 {
+        margin: 0;
+    }
+
+    .description__nav {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .buttons__nav {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: 100px;
+        margin: 0;
+        /* background-color: red; */
+    }
+
+    .pictures__nav {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .pictures__nav::before {
+        width: 650px;
+        filter: blur(3px);
+    }
+
+    /* MAIN */
+    .container__choose {
+        width: 70%;
+        margin: 2rem auto;
+    }
+
+    .eating-snacks {
+        width: 70%;
+        margin: 2rem auto;
+    }
+
+    .card1 {
+        width: 60%;
+        margin: 2rem auto;
+    }
+
+    .title__card {
+        text-align: left;
+    }
+
+    .description__card{
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    .card-costumer {
+        width: 60%;
+        margin: 2rem auto;
+    }
+
+    .card-costumer picture {
+        transform: translatey(70px);
+    }
+
+    .container__subscribe {
+        width: 70%;
+        margin: 5rem auto;
+    }
+
+    .input__subscribe {
+        width: 90%;
+        left: 10px;
+    }
+
+    .email {
+        left: 50px;
+    }
+
+    .container__story {
+        width: 70%;
+        margin: 3rem auto;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .title__subscribe {
+        padding: 1rem 1rem 0 1rem;
+    }
+}
+
+
+/* LAPTOP */
+@media screen and (min-width: 1280px) {
+    .flex__header {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .pictures__nav {
+        width: 30%;
+    }
+
+   .container__choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+   }
+
+   .title__choose--visible-laptop {
+    display: block;
+    text-align: left;
+   }
+
+   .text__choose {
+    text-align: left;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+   }
+
+   .green__circle {
+    width: 30px;
+    height: 30px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+   }
+
+   /* .text__choose::before {
+    content: '';
+    background-color: var(--yellow);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -40px;
+    top: 0;
+    border-radius: 50%;
+   } */
+
+   .title__choose--hidden {
+    display: none;
+   }
+
+   .description__choose {
+    order: -1;
+   }
+   
+   .eating-snacks {
+    padding: 0 10rem;
+   }
+
+   .flex__cards {
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .card1 {
+    width: 100%;
+    margin: .5rem;
+   }
+
+    .price__card {
+        align-items: end;
+        height: 50px;
+    }
+
+    .last--card-price {
+        height: 110px;
+    }
+
+    .container__cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .card-costumer {
+        margin: 1rem;
+    }
+
+    .container__subscribe {
+        display: flex;
+        width: 90%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        overflow: hidden;
+        background-image: var(--gradient-to-left);
+    }
+
+    .subscribe__flex {
+        width: 60%;
+    }
+
+    .title__subscribe {
+        text-align: left;
+    }
+
+    .email {
+        left: 40px;
+    }
+
+    .description__subscribe {
+        text-align: left;
+    }
+
+    
+
+    .img__subscribe {
+        width: 100%;
+        height: 110%;
+        padding: 0 18rem;
+        margin-top: -15px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .benefits__subscribe {
+        height: 105%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+        gap: 1rem;
+    }
+
+    .form__subscribe {
+        padding: 0;
+        width: 90%;
+    }
+
+    .button__subscribe {
+        width: 50%;
+        margin-left: 1.8rem;
+    }
+
+    /* FOOTER */
+    .background__footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .container__options {
+        width: 30%;
+    }
+
+    .container__media {
+        width: 30%;
+    }
+
+    .container__privacy {
+        width: 30%;
+    }
+
+    .img__footer {
+        order: -1;
+        width: 40%;
+    }
+
+    .line__yellow {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1879px) {
+    .container__choose {
+        width: 70%;
+    }
+
+    .price__card {
+        height: 50px;
+    }
+
+    .last--card-price {
+        height: 75px;
+    }
+
+    .container__subscribe {
+        width: 70%;
+    }
+
+    .form__subscribe {
+        padding: 0;
+        width: 80%;
+    }
+}

@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) {
+    /* MAIN */
+    .container__contact {
+        width: 70%;
+        margin: 2rem auto;
+    }
+
+    .logo-icon {
+        background-image: var(--logo);
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    /* MAIN */
+    .container__contact {
+        width: 40%;
+        margin: 2rem auto;
+    }
+
+    .line__yellow {
+        display: none;
+    }
+
+    /* FOOTER */
+    .background__footer {
+        flex-direction: row;
+    }
+
+    .img__footer {
+        order: -1;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .container__contact {
+        width: 30%;
+    }
+}
